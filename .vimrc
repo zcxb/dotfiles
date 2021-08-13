@@ -84,7 +84,7 @@ function! ClosePair(char)
 endfunction
 
 "拼写检查
-set spell spelllang=en_us
+""set spell spelllang=en_us
 
 "指令按 tab 自动补全
 set wildmenu

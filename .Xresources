@@ -1,10 +1,23 @@
+Xft.dpi: 96
+
+*internalBorder: 1
+*externalBorder: -1
+
+URxvt.shading: 30
+
 URxvt.scrollBar: false
-URxvt.scrollBar_right: false
+!URxvt.scrollBar_right: false
 URxvt.scrollBar_floating: false
 URxvt.scrollstyle: rxvt
 
+*cursorBlink: true
+
+*saveLines: 99999
+
 *background: #0f0f0f
 *foreground: #c8c8c8
+
+!URxvt.perl-ext-common: resize-font
 
 !black
 *color0:  #251f1f
@@ -30,3 +43,10 @@ URxvt.scrollstyle: rxvt
 !white
 *color7:  #efefef
 *color15: #efefef
+
+URxvt.borderLess: False
+
+URxvt.font:xft: Source Code Pro:antialias=True:pixelsize=14,xft:WenQuanYi Zen Hei:pixelsize=14
+URxvt.boldfont:xft:Source Code Pro:antialias=True:pixelsize=14,xft:WenQuanYi Zen Hei:pixelsize=14
+
+URxvt.depth: 24
